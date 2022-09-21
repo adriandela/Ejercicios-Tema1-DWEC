@@ -196,7 +196,66 @@
 // let suma = 0
 // puntuaciones.forEach((puntos) => {
 
-    
+
 //     suma = suma + puntos
 //     console.log(suma)
 // });
+//9)
+// meses=["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"]
+// fecha=[21,8,2022]
+// console.log(fecha[0]+" de "+meses[fecha[1]]+" de "+fecha[2])
+//10)
+// let letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T']
+// let numero = parseInt(prompt("introduzca su dni sin letra"))
+// let letra = ""
+// if (numero > 0 && numero < 99999999) {
+//     let letraindicada = prompt("indica la letra")
+//     letra = letras[numero % 23]
+//     if (letra == letraindicada) {
+//         console.log("el dni es correcto")
+//     } else {
+//         console.log("dni incorrecto, la letra correcta es: " + letra)
+//     }
+// } else {
+//     console.log("el numero proporcionado no es valido")
+// }
+//10
+// let notas = []
+// let max = 0
+// let min = 11
+// let mediasuspensos = 0
+// let mediaaprobados = 0
+// let suspensos = 0
+// let aprobados = 0
+// let cont1 = 0
+// let cont2 = 0
+// for (let index = 0; index < 10; index++) {
+//     notas.push(parseInt(prompt("introduce la nota")))
+//     if (notas[index] < 1 || notas[index] > 10) {
+//         console.log("nota incorrecta")
+//         index = 10
+//     }
+// }
+
+// notas.forEach(element => {
+//     if (element > max) {
+//         max = element
+//     }
+//     if (element < min) {
+
+//         min = element
+//     }
+//     if (element < 5) {
+//         suspensos = suspensos + element
+//         cont1++
+//         mediasuspensos = suspensos / cont1
+//     } else {
+//         aprobados = aprobados + element
+//         cont2++
+//         mediaaprobados = aprobados / cont2
+//     }
+// });
+// console.log(max)
+// console.log(min)
+// console.log(mediaaprobados)
+// console.log(mediasuspensos)
