@@ -219,7 +219,7 @@
 // } else {
 //     console.log("el numero proporcionado no es valido")
 // }
-//10
+//11)
 // let notas = []
 // let max = 0
 // let min = 11
@@ -236,7 +236,6 @@
 //         index = 10
 //     }
 // }
-
 // notas.forEach(element => {
 //     if (element > max) {
 //         max = element
@@ -259,3 +258,28 @@
 // console.log(min)
 // console.log(mediaaprobados)
 // console.log(mediasuspensos)
+//12)
+// let num = []
+// let comprobar = true
+// for (let index = 0; index < 10; index++) {
+//     num[index] = parseInt(prompt("introduce un número"))
+// }
+// let menor = num[0]
+// let mayor = num[0]
+// num.forEach(element => {
+//     if (typeof (element) == "number") {
+//         comprobar = true
+//         if (element <= menor) {
+//             menor = element
+//         }
+//         if (element >= mayor) {
+//             mayor = element
+//         }
+//     } else {
+//         comprobar = false
+//     }
+// });
+// if (comprobar == true) {
+//     console.log("elemento menor: " + menor)
+//     console.log("elemento mayor: " + mayor)
+// }
